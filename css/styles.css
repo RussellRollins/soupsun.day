@@ -64,6 +64,49 @@ section p {
     margin-bottom: 1em;
 }
 
+
+.interactive-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.progress-container {
+    width: 80%;
+    max-width: 400px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%;
+    height: 100%;
+    background-color: var(--color-primary);
+    transition: width 0.3s ease-in-out;
+}
+
+#soupButton {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+#soupButton:hover {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+#soupButton:active {
+    transform: scale(0.98);
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
